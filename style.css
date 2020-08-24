@@ -74,14 +74,14 @@ header {
           #structure .wrap .left article h3::after {
             content: '';
             display: block;
-            width: 119px;
+            width: 120px;
             height: 2px;
             background: #444;
             position: absolute;
             left: 480px;
             top: 30px; }
         #structure .wrap .left article:nth-last-of-type(1) h3::after {
-          width: 169px;
+          width: 170px;
           transform: rotate(-45deg);
           transform-origin: left center; }
         #structure .wrap .left article p {
