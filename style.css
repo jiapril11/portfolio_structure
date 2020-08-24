@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&family=Nanum+Pen+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  outline: 1; }
+
+img, fieldset {
+  border: 0; }
+
+table, th, td {
+  border-collapse: collapse; }
+
+input, select, textarea, form, img, label {
+  vertical-align: middle;
+  box-sizing: border-box; }
+
+textarea {
+  resize: none; }
+
+.hidden {
+  position: absolute;
+  top: -999999px;
+  opacity: 0; }
+
+.inner {
+  padding: 0 40px;
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto; }
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 40px 0;
+  text-align: center; }
+  header h1 {
+    font: 50px/1 'Nanum Pen Script', cursive;
+    color: #444;
+    margin-bottom: 15px; }
+  header a {
+    font: 30px/1 'Nanum Pen Script', cursive;
+    color: #777; }
+
+#structure {
+  position: relative;
+  width: 100%;
+  padding: 80px 0; }
+  #structure .wrap {
+    box-sizing: border-box; }
+    #structure .wrap::after {
+      content: '';
+      display: block;
+      clear: both; }
+    #structure .wrap .left {
+      float: left;
+      width: 50%; }
+      #structure .wrap .left article {
+        width: 480px;
+        margin-bottom: 30px; }
+        #structure .wrap .left article h3 {
+          font: bold 20px/1 'arial';
+          color: #444;
+          padding: 20px;
+          box-sizing: border-box;
+          background: #444;
+          color: #fff;
+          position: relative; }
+          #structure .wrap .left article h3::after {
+            content: '';
+            display: block;
+            width: 119px;
+            height: 2px;
+            background: #444;
+            position: absolute;
+            left: 480px;
+            top: 30px; }
+        #structure .wrap .left article:nth-last-of-type(1) h3::after {
+          width: 169px;
+          transform: rotate(-45deg);
+          transform-origin: left center; }
+        #structure .wrap .left article p {
+          font: 20px/1.4  'Hi Melody', cursive;
+          color: #555;
+          text-indent: 10px;
+          padding-top: 10px; }
+    #structure .wrap .right {
+      float: right;
+      width: 50%; }
+      #structure .wrap .right article {
+        width: 480px;
+        margin-bottom: 30px; }
+        #structure .wrap .right article h3 {
+          font: bold 20px/1 'arial';
+          color: #444;
+          padding: 20px;
+          box-sizing: border-box;
+          border: 1px solid #444; }
+        #structure .wrap .right article p {
+          font: 20px/1.4  'Hi Melody', cursive;
+          color: #555;
+          text-indent: 10px;
+          padding-top: 10px; }
+
+#dist_structure, #src_structure {
+  position: relative;
+  width: 100%;
+  padding: 80px 0; }
+  #dist_structure h1, #src_structure h1 {
+    text-align: center;
+    font: bold 25px/1 'arial';
+    color: #444;
+    margin-bottom: 20px; }
+  #dist_structure table, #src_structure table {
+    width: 60%;
+    float: left; }
+    #dist_structure table caption, #src_structure table caption {
+      font: bold 25px/1 'arial';
+      color: #444;
+      margin-bottom: 20px; }
+    #dist_structure table thead tr td, #src_structure table thead tr td {
+      font: 18px/1 'arial';
+      color: #fff;
+      background: #444;
+      padding: 20px;
+      text-align: center; }
+    #dist_structure table tbody tr td, #src_structure table tbody tr td {
+      font: 16px/1 'arial';
+      color: #444;
+      padding: 15px; }
+  #dist_structure article, #src_structure article {
+    width: 38%;
+    float: right; }
+    #dist_structure article dl, #src_structure article dl {
+      border: 1px solid #777;
+      padding: 28px 20px; }
+      #dist_structure article dl dt, #src_structure article dl dt {
+        font: bold 16px/1 'arial';
+        color: #555; }
+      #dist_structure article dl dd, #src_structure article dl dd {
+        font: 18px/1.4  'Hi Melody', cursive;
+        color: #555;
+        text-indent: 10px;
+        margin-bottom: 14px;
+        margin-top: 5px; }
+
+/*# sourceMappingURL=style.css.map */
